@@ -11,8 +11,10 @@ module.exports = {
   },
   plugins: [],
   purge: [
-    "./app/**/*.{js,ts,jsx,tsx}",
-    "./pages/**/*.{js,ts,jsx,tsx}",
-    "./components/**/*.{js,ts,jsx,tsx}",
+    './public/**/*.html',
+    "./app/**/*.{js,ts,jsx,tsx, html}",
+    "./pages/**/*.{js,ts,jsx,tsx, html}",
+    "./components/**/*.{js,ts,jsx,tsx, html}",
   ],
+  
 }
